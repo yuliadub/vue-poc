@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+   <component :is="'script'" src="https://du6amfiq9m9h7.cloudfront.net/loader/nac-widget-loader.min.js" data-widget="forecast" data-center="NWAC"></component>
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
